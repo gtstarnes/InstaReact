@@ -1,3 +1,6 @@
+import { user } from "../data/users"
+
+const pic = user.profPic;
 
 const ProfilePic = () => {
   return (
