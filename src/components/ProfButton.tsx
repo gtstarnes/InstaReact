@@ -1,8 +1,12 @@
+import './profButton.css'
 
+type Props = {
+    text: string
+}
 
-const ProfButton = () => {
+const ProfButton = ({text}:Props) => {
   return (
-    <div>ProfButton</div>
+    <button>{text}</button>
   )
 }
 
