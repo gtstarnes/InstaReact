@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <ProfilePic />
+      <ProfilePic height='3.5rem' width='3.5rem' />
     </>
   )
 }
