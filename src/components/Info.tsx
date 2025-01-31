@@ -12,14 +12,14 @@ const Info = () => {
                 posts
             </span>
         </div>
-        <button className="followers">
-            <span>
+        <button >
+            <span className="followers">
                 {followers}
                 followers
             </span>
         </button>
-        <button className="following">
-            <span>
+        <button>
+            <span className="following">
                 {following}
                 following
             </span>
