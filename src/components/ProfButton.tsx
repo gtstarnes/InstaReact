@@ -6,7 +6,7 @@ type Props = {
 
 const ProfButton = ({text}:Props) => {
   return (
-    <button>{text}</button>
+    <button className="prof-button">{text}</button>
   )
 }
 
