@@ -11,12 +11,14 @@ const pic = user.profPic;
 const ProfilePic = (props:Props) => {
     const {height, width} = props
   return (
-    <div style={{backgroundColor: `${pic}`, 
-        borderRadius: '50%',
-        height: `${height}`,
-        width: `${width}`}
-        }>
-    </div>
+    <button className="profile-Button">
+        <div style={{backgroundColor: `${pic}`, 
+            borderRadius: '50%',
+            height: `${height}`,
+            width: `${width}`}
+            }>
+        </div>
+    </button>
   )
 }
 
