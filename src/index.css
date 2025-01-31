@@ -1,1 +1,8 @@
 
+.dark-mode {
+    background-color: black;
+    color: whitesmoke;
+}
+.dark-mode button {
+    color: whitesmoke;
+}

@@ -1,8 +1,11 @@
 
+function toggleDarkMode() {
+    document.body.classList.toggle('dark-mode');
+}
 
 const DarkMode = () => {
   return (
-    <button></button>
+    <button onClick={toggleDarkMode}></button>
   )
 }
 
