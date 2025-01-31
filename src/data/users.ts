@@ -19,3 +19,7 @@ const user = {
     profPic: 'DarkOrchid',
     des: "Loror ipsom unet lau. Sporor. Jipum. Kelent."
 }
+
+function randomNum() {
+    return Math.floor(Math.random()*100)
+}
