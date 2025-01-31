@@ -1,4 +1,4 @@
-button {
+.prof-button {
     width: 6rem;
     height: 1.5rem;
     border-radius: 8px;
@@ -7,6 +7,6 @@ button {
     font-size: 12px;
 }
 
-button:hover {
+.prof-button:hover {
     background-color: lightgrey;
 }
