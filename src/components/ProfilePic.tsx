@@ -1,4 +1,5 @@
 import { user } from "../data/users"
+import './profilePic.css'
 
 type Props = {
     height: string,
@@ -12,12 +13,9 @@ const ProfilePic = (props:Props) => {
     const {height, width} = props
   return (
     <button className="profile-Button">
-        <div style={{backgroundColor: `${pic}`, 
-            borderRadius: '50%',
-            height: `${height}`,
-            width: `${width}`}
-            }>
-        </div>
+
+        <div style={{backgroundColor: `${pic}`, borderRadius: '50%',height: `${height}`,width: `${width}`}}></div>
+
     </button>
   )
 }
